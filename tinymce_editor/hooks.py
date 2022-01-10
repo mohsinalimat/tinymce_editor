@@ -16,6 +16,11 @@ app_license = "MIT"
 # app_include_css = "/assets/tinymce_editor/css/tinymce_editor.css"
 # app_include_js = "/assets/tinymce_editor/js/tinymce_editor.js"
 
+app_include_js = [
+    "https://cdnjs.cloudflare.com/ajax/libs/tinymce/5.10.2/tinymce.min.js",
+    "/assets/tinymce_editor/js/tinymce_editor.js"
+]
+
 # include js, css files in header of web template
 # web_include_css = "/assets/tinymce_editor/css/tinymce_editor.css"
 # web_include_js = "/assets/tinymce_editor/js/tinymce_editor.js"
