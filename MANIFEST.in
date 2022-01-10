@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tinymce_editor *.css
+recursive-include tinymce_editor *.csv
+recursive-include tinymce_editor *.html
+recursive-include tinymce_editor *.ico
+recursive-include tinymce_editor *.js
+recursive-include tinymce_editor *.json
+recursive-include tinymce_editor *.md
+recursive-include tinymce_editor *.png
+recursive-include tinymce_editor *.py
+recursive-include tinymce_editor *.svg
+recursive-include tinymce_editor *.txt
+recursive-exclude tinymce_editor *.pyc
